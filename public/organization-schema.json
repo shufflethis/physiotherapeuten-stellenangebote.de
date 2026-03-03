@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "physiotherapeuten-stellenangebote.de",
+  "url": "https://physiotherapeuten-stellenangebote.de",
+  "description": "Spezialisiertes Jobportal fuer Physiotherapeuten-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
+  "logo": "https://physiotherapeuten-stellenangebote.de/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": [
+      "German",
+      "English"
+    ]
+  },
+  "sameAs": []
+}

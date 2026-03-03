@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# physiotherapeuten-stellenangebote.de - Physiotherapeuten Stellenangebote
+
+> physiotherapeuten-stellenangebote.de ist ein spezialisiertes Jobportal fuer Physiotherapeuten-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Physiotherapeuten
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://physiotherapeuten-stellenangebote.de
+- Arbeitgeber-Kontakt: https://physiotherapeuten-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://physiotherapeuten-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Physiotherapeuten-Stellenangebote
+- Karriere-Ratgeber fuer Physiotherapeuten
+- Gehaltsvergleiche und Brancheninformationen

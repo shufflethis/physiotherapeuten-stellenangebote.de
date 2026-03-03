@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://physiotherapeuten-stellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "physiotherapeuten-stellenangebote.de",
+    "url": "https://physiotherapeuten-stellenangebote.de"
+  },
+  "description": "Gruender von physiotherapeuten-stellenangebote.de - spezialisiertes Jobportal fuer Physiotherapeuten-Stellenangebote.",
+  "knowsAbout": [
+    "Physiotherapeuten",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}
