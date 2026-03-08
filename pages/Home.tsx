@@ -16,6 +16,186 @@ import { Search, MapPin, Filter, Stethoscope } from 'lucide-react';
 const SAMPLE_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    company: 'NORDIC RAIL SERVICE GMBH',
+    location: 'Lübeck',
+    type: 'Vollzeit',
+    tags: [],
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '2',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
+    type: 'Vollzeit',
+    tags: [],
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '3',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    tags: [],
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '4',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    tags: [],
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '5',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    tags: [],
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '6',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'BS Menzel GmbH',
+    location: 'Ostseebad Heringsdorf',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-07'
+  },
+  {
+    id: '7',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'DIEPA GmbH Filiale Berlin Südost',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-07'
+  },
+  {
+    id: '8',
+    title: 'Physiotherapeut/in',
+    company: 'Kurzentrum Thermal-Heilbad GmbH&CoKG',
+    location: 'Villach-Warmbad-Judendorf',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '9',
+    title: 'Physiotherapeut/in',
+    company: 'LKH Oststeiermark Standort Feldbach',
+    location: 'Feldbach',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '10',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Novotergum',
+    location: 'Bochum',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '11',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Waldburg-Zeil Kliniken',
+    location: 'Oberammergau',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '12',
+    title: 'Physiotherapeut / Physiotherapeutin (m/w/d)',
+    company: 'VIF Personalberatung # Vermittlung in Festanstellung # Volker Bronheim',
+    location: 'Regensburg',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '13',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Med-Spezialisten GmbH',
+    location: 'Fürth, Bayern',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '14',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Med-Spezialisten GmbH',
+    location: 'Nürnberg, Mittelfranken',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '15',
+    title: 'Physiotherapeut/in',
+    company: 'Physio Harmony',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '16',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Med-Spezialisten GmbH',
+    location: 'Erlangen',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '17',
+    title: 'Physiotherapeut*in',
+    company: 'Gemeinde Helgoland Helgoland Tourismus Service',
+    location: 'Helgoland',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '18',
+    title: 'Physiotherapeut m/w/d',
+    company: 'Landerlebniswelt Bad Dürrenberg GmbH',
+    location: 'Bad Dürrenberg',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '19',
+    title: 'Physiotherapeut/-in (w/m/d)',
+    company: 'Giovanni Scrivo Therapiezentrum',
+    location: 'Buchloe',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '20',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'BS Menzel GmbH',
+    location: 'Gifhorn',
+    type: 'Vollzeit',
+    tags: ['Physiotherapeut/in'],
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '21',
     title: 'Physiotherapeut (m/w/d)',
     company: 'BS Menzel GmbH',
     location: 'Wolfsburg',
@@ -24,7 +204,7 @@ const SAMPLE_JOBS: JobListing[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '2',
+    id: '22',
     title: 'Physiotherapeut (m/w/d)',
     company: 'BS Menzel GmbH',
     location: 'Naumburg (Saale)',
@@ -33,7 +213,7 @@ const SAMPLE_JOBS: JobListing[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '3',
+    id: '23',
     title: 'Physiotherapeut (m/w/d)',
     company: 'ZAR Rhein-Main GmbH',
     location: 'Frankfurt am Main',
@@ -42,7 +222,7 @@ const SAMPLE_JOBS: JobListing[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '4',
+    id: '24',
     title: 'Physiotherapeut (m/w/d)',
     company: 'Universitätsklinikum Würzburg',
     location: 'Würzburg',
@@ -51,193 +231,13 @@ const SAMPLE_JOBS: JobListing[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '5',
+    id: '25',
     title: 'Physiotherapeut (m/w/d)',
     company: 'Sophienklinik Bad Sulza gGmbH',
     location: 'Bad Sulza',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
     postedAt: '2026-03-04'
-  },
-  {
-    id: '6',
-    title: 'Physiotherapeut (m/w/d)*',
-    company: 'BFW Berlin-Brandenburg e. V.',
-    location: 'Mühlenbeck bei Oranienburg',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '7',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Todtmoos',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '8',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'GPS - Gemeinnützige Gesellschaft für Paritätische Sozialarbeit mbH',
-    location: 'Saarbrücken',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '9',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Wuppertal',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '10',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Stralsund',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '11',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Altenkirchen, Rügen',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '12',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Trier',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '13',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Ostseebad Prerow',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '14',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Bergisch Gladbach',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '15',
-    title: 'Physiotherapeut/in (m/w/d)',
-    company: 'Physiotherapie revital Inh. Beate Stepan-Sadowski',
-    location: 'Schneeberg, Erzgebirge',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '16',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Paracelsus-Kliniken Deutschland GmbH & Co. KGaA',
-    location: 'Bremen',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '17',
-    title: 'Physiotherapeut/in',
-    company: 'Orthopädisches Spital Speising GmbH',
-    location: 'Wien,Hietzing',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '18',
-    title: 'Physiotherapeut/in',
-    company: 'Volkshilfe Niederösterreich Service Mensch GmbH',
-    location: 'Wiener Neudorf',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '19',
-    title: 'Physiotherapeut/in',
-    company: 'Volkshilfe Niederösterreich SERVICE MENSCH Gmbh',
-    location: 'Bezirk: Hollabrunn',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '20',
-    title: 'Physiotherapeut/in',
-    company: 'Krankenhaus der Barmherzige n Brüder Eisenstadt GmbH',
-    location: 'Eisenstadt',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '21',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Klinikum Garmisch-Partenkirchen',
-    location: 'Garmisch-Partenkirchen',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '22',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'InnKlinikum Altötting und Mühldorf',
-    location: 'Haag in Oberbayern',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '23',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'NeuroNetzwerk',
-    location: 'Mannheim',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '24',
-    title: 'Physiotherapeuten (m/w/d)',
-    company: 'BEZIRKSKLINIK REHAU',
-    location: 'Rehau, Oberfranken',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '25',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'JobImpulse Süd GmbH Coburg',
-    location: 'Kronach, Oberfranken',
-    type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-03'
   }
 ];
 
