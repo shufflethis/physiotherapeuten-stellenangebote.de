@@ -6,12 +6,12 @@ import { introText } from '../data/content';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-50">
+    <div className="relative min-h-[70vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-slate-50">
       {/* Decorative Circles */}
       <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-health-100/50 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/4"></div>
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-blue-100/40 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10 md:pt-24 md:pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           <div className="text-left">
@@ -20,12 +20,12 @@ const Hero: React.FC = () => {
               <span className="text-xs font-bold uppercase tracking-widest">Deutschlands Spezialportal für Therapie</span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-display font-extrabold text-slate-900 leading-tight mb-8">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-display font-extrabold text-slate-900 leading-tight mb-6 md:mb-8">
               Bewegung ist <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-health-600 to-active-blue">Deine Leidenschaft.</span>
             </h1>
 
-            <p className="text-xl text-slate-600 max-w-xl font-medium leading-relaxed mb-10">
+            <p className="text-lg md:text-xl text-slate-600 max-w-xl font-medium leading-relaxed mb-8 md:mb-10">
               Finde Deinen Traumjob in der Physiotherapie. Verbinde Deine Karriere mit der Zukunft der Rehabilitation auf unserem kostenlosen Portal.
             </p>
 

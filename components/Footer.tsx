@@ -48,13 +48,13 @@ const Footer: React.FC = () => {
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex-shrink-0 flex items-center justify-center">
                   <MapPin className="h-5 w-5 text-health-400" />
                 </div>
-                <span>Therapiestraße 12<br />10437 Berlin<br />Deutschland</span>
+                <span>Schliemannstraße 23<br />10437 Berlin<br />Deutschland</span>
               </li>
               <li className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex-shrink-0 flex items-center justify-center">
                   <Phone className="h-5 w-5 text-health-400" />
                 </div>
-                <span>+49 (0) 30 1234-567</span>
+                <span>+49 30 959 988 700</span>
               </li>
               <li className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex-shrink-0 flex items-center justify-center">

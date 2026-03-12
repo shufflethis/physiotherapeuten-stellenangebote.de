@@ -8,6 +8,8 @@ import JobCard from '../components/JobCard';
 import ApplicationModal from '../components/ApplicationModal';
 import ContentSection from '../components/ContentSection';
 import Footer from '../components/Footer';
+import CityJobLinks from '../components/geo/CityJobLinks';
+import FAQSection from '../components/FAQSection';
 import { JobListing } from '../types';
 import { searchSection, employerSection, applicantSection, aboutSection } from '../data/content';
 import { Search, MapPin, Filter, Stethoscope } from 'lucide-react';
@@ -16,47 +18,47 @@ import { Search, MapPin, Filter, Stethoscope } from 'lucide-react';
 const SAMPLE_JOBS: JobListing[] = [
   {
     id: '1',
-    title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
-    company: 'NORDIC RAIL SERVICE GMBH',
+    title: 'Physiotherapeut/in (m/w/d) für ambulante Rehabilitation',
+    company: 'Rehazentrum Lübeck GmbH',
     location: 'Lübeck',
     type: 'Vollzeit',
-    tags: [],
+    tags: ['Physiotherapeut/in'],
     postedAt: '2026-03-08'
   },
   {
     id: '2',
-    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
-    company: 'HUK-COBURG Versicherungsgruppe',
+    title: 'Physiotherapeut (m/w/d) - Schwerpunkt Manuelle Therapie',
+    company: 'Klinikum Weißenburg',
     location: 'Weißenburg i. Bayern',
     type: 'Vollzeit',
-    tags: [],
+    tags: ['Physiotherapeut/in', 'Manuelle Therapie'],
     postedAt: '2026-03-08'
   },
   {
     id: '3',
-    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
-    company: 'HUK-COBURG Versicherungsgruppe',
+    title: 'Physiotherapeut/in (m/w/d) für Sportphysiotherapie',
+    company: 'Praxis für Physiotherapie Nürnberg',
     location: 'Nürnberg',
     type: 'Vollzeit',
-    tags: [],
+    tags: ['Physiotherapeut/in', 'Sportphysiotherapie'],
     postedAt: '2026-03-08'
   },
   {
     id: '4',
-    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
-    company: 'Sikla GmbH',
+    title: 'Leitende/r Physiotherapeut/in (m/w/d)',
+    company: 'Klinikum Nürnberg Nord',
     location: 'Nürnberg',
     type: 'Vollzeit',
-    tags: [],
+    tags: ['Physiotherapeut/in', 'Leitungsposition'],
     postedAt: '2026-03-08'
   },
   {
     id: '5',
-    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
-    company: 'Sikla GmbH',
+    title: 'Physiotherapeut (m/w/d) - Neurologische Rehabilitation',
+    company: 'Schön Klinik München Harlaching',
     location: 'München',
     type: 'Vollzeit',
-    tags: [],
+    tags: ['Physiotherapeut/in', 'Neurologie'],
     postedAt: '2026-03-08'
   },
   {
@@ -328,6 +330,12 @@ const Home: React.FC = () => {
           
           <ContentSection id="about" content={aboutSection} className="bg-slate-50/50" />
         </div>
+
+        {/* Geo SEO: City Job Links */}
+        <CityJobLinks />
+
+        {/* Career Info & FAQ */}
+        <FAQSection />
 
       </main>
 

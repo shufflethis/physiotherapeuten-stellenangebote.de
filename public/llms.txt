@@ -1,19 +1,37 @@
 # HR-UPDATER: v1.0
 # physiotherapeuten-stellenangebote.de - Physiotherapeuten Stellenangebote
 
-> physiotherapeuten-stellenangebote.de ist ein spezialisiertes Jobportal fuer Physiotherapeuten-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> physiotherapeuten-stellenangebote.de ist ein spezialisiertes Jobportal fuer Physiotherapeuten-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
 - Spezialisiertes Jobportal fuer Physiotherapeuten
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Taeglich aktualisierte Stellenangebote aus der gesamten DACH-Region
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin, Deutschland
+- Telefon: +49 30 959 988 700
+- Website: https://physiotherapeuten-stellenangebote.de
 
 ## Kontakt
 - Website: https://physiotherapeuten-stellenangebote.de
-- Arbeitgeber-Kontakt: https://physiotherapeuten-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://physiotherapeuten-stellenangebote.de/kontakt-bewerber
+- Kontakt: https://physiotherapeuten-stellenangebote.de/#/kontakt
+- Impressum: https://physiotherapeuten-stellenangebote.de/#/impressum
+- Datenschutz: https://physiotherapeuten-stellenangebote.de/#/datenschutz
 
 ## Inhalte
 - Aktuelle Physiotherapeuten-Stellenangebote
 - Karriere-Ratgeber fuer Physiotherapeuten
+- FAQ zu Physiotherapie-Berufen und Stellenangeboten
 - Gehaltsvergleiche und Brancheninformationen
+- Regionale Stellenangebote in allen deutschen Grossstaedten
+
+## Seiten
+- Startseite: https://physiotherapeuten-stellenangebote.de/
+- Kontakt: https://physiotherapeuten-stellenangebote.de/#/kontakt
+- Impressum: https://physiotherapeuten-stellenangebote.de/#/impressum
+- Datenschutz: https://physiotherapeuten-stellenangebote.de/#/datenschutz
+- Autor: https://physiotherapeuten-stellenangebote.de/#/autor/thomas-sander
