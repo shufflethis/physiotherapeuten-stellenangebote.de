@@ -60,8 +60,8 @@ const Footer: React.FC = () => {
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex-shrink-0 flex items-center justify-center">
                   <Mail className="h-5 w-5 text-health-400" />
                 </div>
-                <a href="mailto:hallo@physiotherapeuten-stellenangebote.de" className="hover:text-health-400 transition-colors">
-                  hallo@physiojobs.de
+                <a href="mailto:info@socialmediaventure.com" className="hover:text-health-400 transition-colors">
+                  info@socialmediaventure.com
                 </a>
               </li>
             </ul>
