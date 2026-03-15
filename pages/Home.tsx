@@ -18,228 +18,228 @@ import { Search, MapPin, Filter, Stethoscope } from 'lucide-react';
 const SAMPLE_JOBS: JobListing[] = [
   {
     id: '1',
-    title: 'Physiotherapeut/in (m/w/d) für ambulante Rehabilitation',
-    company: 'Rehazentrum Lübeck GmbH',
-    location: 'Lübeck',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
     type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-08'
+    tags: [],
+    postedAt: '2026-03-15'
   },
   {
     id: '2',
-    title: 'Physiotherapeut (m/w/d) - Schwerpunkt Manuelle Therapie',
-    company: 'Klinikum Weißenburg',
-    location: 'Weißenburg i. Bayern',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
     type: 'Vollzeit',
-    tags: ['Physiotherapeut/in', 'Manuelle Therapie'],
-    postedAt: '2026-03-08'
+    tags: [],
+    postedAt: '2026-03-15'
   },
   {
     id: '3',
-    title: 'Physiotherapeut/in (m/w/d) für Sportphysiotherapie',
-    company: 'Praxis für Physiotherapie Nürnberg',
-    location: 'Nürnberg',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
     type: 'Vollzeit',
-    tags: ['Physiotherapeut/in', 'Sportphysiotherapie'],
-    postedAt: '2026-03-08'
+    tags: [],
+    postedAt: '2026-03-15'
   },
   {
     id: '4',
-    title: 'Leitende/r Physiotherapeut/in (m/w/d)',
-    company: 'Klinikum Nürnberg Nord',
-    location: 'Nürnberg',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
     type: 'Vollzeit',
-    tags: ['Physiotherapeut/in', 'Leitungsposition'],
-    postedAt: '2026-03-08'
+    tags: [],
+    postedAt: '2026-03-15'
   },
   {
     id: '5',
-    title: 'Physiotherapeut (m/w/d) - Neurologische Rehabilitation',
-    company: 'Schön Klinik München Harlaching',
-    location: 'München',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
     type: 'Vollzeit',
-    tags: ['Physiotherapeut/in', 'Neurologie'],
-    postedAt: '2026-03-08'
+    tags: [],
+    postedAt: '2026-03-15'
   },
   {
     id: '6',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Ostseebad Heringsdorf',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
     type: 'Vollzeit',
-    tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-07'
+    tags: [],
+    postedAt: '2026-03-15'
   },
   {
     id: '7',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'DIEPA GmbH Filiale Berlin Südost',
-    location: 'Berlin',
+    title: 'Physiotherapeut/in (m/w/d) (Physiotherapeut/in)',
+    company: 'PK Vogtland-Klinik GmbH&Co.KG',
+    location: 'Bad Elster',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-07'
+    postedAt: '2026-03-13'
   },
   {
     id: '8',
-    title: 'Physiotherapeut/in',
-    company: 'Kurzentrum Thermal-Heilbad GmbH&CoKG',
-    location: 'Villach-Warmbad-Judendorf',
+    title: 'Physiotherapeut',
+    company: 'Sigrid Wilke-Ndiaye Krankengymnastik',
+    location: 'Hannover',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '9',
-    title: 'Physiotherapeut/in',
-    company: 'LKH Oststeiermark Standort Feldbach',
-    location: 'Feldbach',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Praxis für Physio- und Ergotherapie',
+    location: 'Diepholz',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '10',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Novotergum',
-    location: 'Bochum',
+    title: 'Physiotherapeut/in',
+    company: 'Heilbad Sauerbrunn Betriebs gesellschaft mbH',
+    location: 'Bad Sauerbrunn',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '11',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Waldburg-Zeil Kliniken',
-    location: 'Oberammergau',
+    title: 'Physiotherapeut/in (w/m/d)',
+    company: 'Hannelore Baumgarten-August Physiotherapeutin',
+    location: 'Oldenburg (Oldb)',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '12',
-    title: 'Physiotherapeut / Physiotherapeutin (m/w/d)',
-    company: 'VIF Personalberatung # Vermittlung in Festanstellung # Volker Bronheim',
-    location: 'Regensburg',
+    title: 'Physiotherapeut/in (m/w/d)',
+    company: 'Güntner & Hanrieder GbR',
+    location: 'Abensberg, Hallertau',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '13',
     title: 'Physiotherapeut (m/w/d)',
-    company: 'Med-Spezialisten GmbH',
-    location: 'Fürth, Bayern',
+    company: 'NOVOTERGUM',
+    location: 'Wuppertal',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '14',
     title: 'Physiotherapeut (m/w/d)',
-    company: 'Med-Spezialisten GmbH',
-    location: 'Nürnberg, Mittelfranken',
+    company: 'NOVOTERGUM',
+    location: 'Dortmund',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '15',
-    title: 'Physiotherapeut/in',
-    company: 'Physio Harmony',
-    location: 'Berlin',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'NOVOTERGUM',
+    location: 'Offenbach am Main',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '16',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Med-Spezialisten GmbH',
-    location: 'Erlangen',
+    title: 'Physiotherapeut (w/m/d)',
+    company: 'Heilpädagogische Hilfe Osnabrück e.V.',
+    location: 'Osnabrück',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '17',
-    title: 'Physiotherapeut*in',
-    company: 'Gemeinde Helgoland Helgoland Tourismus Service',
-    location: 'Helgoland',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'L. Schneider & K. Ressel GbR',
+    location: 'Gladbeck',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '18',
-    title: 'Physiotherapeut m/w/d',
-    company: 'Landerlebniswelt Bad Dürrenberg GmbH',
-    location: 'Bad Dürrenberg',
+    title: 'Physiotherapeuten (m/w/d)',
+    company: 'Fachklinikum Mainschleife GmbH',
+    location: 'Volkach',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '19',
-    title: 'Physiotherapeut/-in (w/m/d)',
-    company: 'Giovanni Scrivo Therapiezentrum',
-    location: 'Buchloe',
+    title: 'Physiotherapeut (m/w/d)',
+    company: 'Verein für Menschen m. Körper- und Mehrfachbehinderung e. V.',
+    location: 'Würzburg',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '20',
     title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Gifhorn',
+    company: 'ZAR Leipzig GmbH',
+    location: 'Leipzig',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '21',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Wolfsburg',
+    title: 'Physiotherapeut*innen (m/w/d)',
+    company: 'Justizvollzugsanstalt Plötzensee',
+    location: 'Berlin',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
+    postedAt: '2026-03-13'
   },
   {
     id: '22',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'BS Menzel GmbH',
-    location: 'Naumburg (Saale)',
+    title: 'Physiotherapeut m/w/d',
+    company: 'Limes Schlossklinik Mecklenburgische Schweiz',
+    location: 'Teterow',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
+    postedAt: '2026-03-13'
   },
   {
     id: '23',
     title: 'Physiotherapeut (m/w/d)',
-    company: 'ZAR Rhein-Main GmbH',
-    location: 'Frankfurt am Main',
+    company: 'Klinikum der Landeshauptstadt Stuttgart gKAöR',
+    location: 'Stuttgart',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
+    postedAt: '2026-03-13'
   },
   {
     id: '24',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Universitätsklinikum Würzburg',
-    location: 'Würzburg',
+    title: 'Physiotherapeut m/w/d',
+    company: 'Städtisches Klinikum  Görlitz gGmbH',
+    location: 'Görlitz, Neiße',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
+    postedAt: '2026-03-13'
   },
   {
     id: '25',
-    title: 'Physiotherapeut (m/w/d)',
-    company: 'Sophienklinik Bad Sulza gGmbH',
-    location: 'Bad Sulza',
+    title: 'Physiotherapeut m/w/d',
+    company: 'Ortenau Klinikum',
+    location: 'Achern, Baden',
     type: 'Vollzeit',
     tags: ['Physiotherapeut/in'],
-    postedAt: '2026-03-04'
+    postedAt: '2026-03-13'
   }
 ];
 
